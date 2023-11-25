@@ -22,7 +22,8 @@ jobs:
 
       - name: Install python_pytest
         run: |
-         sudo apt install python-pytest 
+         sudo apt install python-pytest
+	 pwd 
   
       - name: Run tests
         run: |
